@@ -1,7 +1,7 @@
-const App = () => {
-  return (
-    <div className=''>Hello World</div>
-  )
-}
+import Navbar from "./components/Navbar";
 
-export default App
+const App = () => {
+  return <div className="px-4 md:px-8 lg:px-16 lx:px-32 2xl:px-64"></div>;
+};
+
+export default App;
